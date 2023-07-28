@@ -14,6 +14,10 @@ public class Reverse {
 
         System.out.println("reversedStr = " + reversedStr);
 
+        if (str.equalsIgnoreCase(reversedStr)){
+            System.out.println("Palindrome");
+        }
+
         System.out.println("===========second way==============");
 
          //StringBuffer is thread-safe and synchronize but slow
