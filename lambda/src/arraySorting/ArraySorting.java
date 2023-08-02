@@ -10,7 +10,13 @@ public class ArraySorting {
        as.sort(bs);
        as.sort(qs);
 
+       Sorting quickSort=()-> System.out.println("Quick Sorting");
+       as.sort(quickSort);
 
+       Sorting bubleSort=()-> System.out.println("Buble sorting");
+       as.sort(bubleSort);
+
+        as.sort(() -> System.out.println("Buble sorting"));
     }
 
     private void sort(Sorting sorting) {
