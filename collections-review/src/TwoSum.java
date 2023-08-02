@@ -16,12 +16,14 @@ public class TwoSum {
 
 
     }
-
+    // Bruteforce Solution of Two Sum problem.
     public static int[] twoSum1(int[] myArray, int target) { //n*n -->>O(n^2)
 
         for (int i = 0; i < myArray.length-1; i++) {
             for (int j = 1; j < myArray.length; j++) {
-                if ((myArray[i]+myArray[j])==target) return new int[]{i,j};
+                if (i!=j) {
+                    if ((myArray[i] + myArray[j]) == target) return new int[]{i, j};
+                }
             }
         }
         return new int[]{};
