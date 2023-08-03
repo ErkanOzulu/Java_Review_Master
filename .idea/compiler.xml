@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="generics" />
+        <module name="lambda_" />
         <module name="oop-review" />
       </profile>
     </annotationProcessing>

@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collections-review/collections-review.iml" filepath="$PROJECT_DIR$/collections-review/collections-review.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-review-master.iml" filepath="$PROJECT_DIR$/.idea/java-review-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
     </modules>
   </component>
 </project>
