@@ -16,7 +16,7 @@ public class TaskCharacter {
 
         System.out.println("---stream----");
 
-        words.stream().map(i -> i.length()).forEach(i -> System.out.println(i));
+        words.stream().map(i -> i+" : "+ i.length()).forEach(i -> System.out.println(i));
 
         System.out.println("--- Shortest way ---");
 

@@ -41,7 +41,7 @@ public class DishTask {
 
 
         menu.stream()
-                .map(i->i.getName().length())
+                .map(i->i.getName()+" : "+i.getName().length())
                 .forEach(System.out::println);
 
         System.out.println("---second way---");
