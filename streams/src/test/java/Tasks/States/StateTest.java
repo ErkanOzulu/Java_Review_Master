@@ -30,6 +30,13 @@ public class StateTest {
 
         System.out.println("****************");
 
+        stateList.stream()
+                .flatMap(state -> state.getCity().stream())
+                .forEach(System.out::println);
+
+
+        System.out.println("****************");
+
         stateList.stream().map(state -> state.getCity())
                 .flatMap(List::stream)
                 .forEach(System.out::println);
