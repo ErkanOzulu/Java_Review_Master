@@ -7,7 +7,7 @@ public class EmployeeTest {
     public static void main(String[] args) {
 
 
-        //print all emails --> One employee has one email - One to Oone
+        //print all emails --> One employee has one email - One to one
         EmployeeData.readAll()
                 .map(Employee::getEmpEmail)
                 .forEach(System.out::println);
