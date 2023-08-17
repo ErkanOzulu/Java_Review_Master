@@ -1,7 +1,5 @@
 package Tasks;
 
-import java.util.Comparator;
-
 import static java.util.Comparator.comparing;
 
 public class DishTask2 {
